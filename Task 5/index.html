@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> C5.Задание 5_STEPANOV</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="main">
+
+<div class="wrapper">
+
+    <h1 class="header">Задание 5</h1>
+    <p class="text">Укажите номер страницы и лимит в диапазонах от 1 до 10:</p>
+
+    <div class="form">
+        <label class="label" for="page">Номер страницы</label>
+        <input class="input input-page" type="number" id="page" min="1" max="10" placeholder="0">
+        <label class="label" for="limit">Лимит</label>
+        <input class="input input-limit" type="number" id="limit" min="1" max="10" placeholder="0">
+        <button class="btn" type="submit">Запрос</button>
+    </div>
+
+    <div class="result">Результат</div>
+
+    <div>
+        <button class="clear-storage" type="submit">Очистить localStorage</button>
+    </div>
+
+</div>
+
+<!-- <script src="script.js"></script> -->
+<script src="script.js"></script>
+</body>
+</html>
